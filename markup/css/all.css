@@ -1,0 +1,73 @@
+html { overflow:  hidden; }
+body{
+	margin: 0;
+	color: #000;
+	font: 11px Arial, Helvetica, sans-serif;
+	background: #fff;
+}
+img{border-style: none;}
+a{
+	text-decoration: none;
+	color: #000;
+}
+a:hover{text-decoration: underline;}
+input,
+textarea,
+select{
+	font: 100% arial,sans-serif;
+	vertical-align: middle;
+}
+form,fieldset, p{
+	margin: 0;
+	padding: 0;
+	border-style: none;
+}
+header, footer, article, section, hgroup, nav, figure { display: block; }
+#wrapper{
+	bottom: 0;
+    margin: 0 auto;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+#wrapper .play_ground{
+	height:100%;
+	position:relative;
+}
+.brick{
+	float:left;
+	height:20px;
+	box-sizing: border-box;
+	border:1px solid #7D7D7D;
+}
+
+#ball{
+	position:absolute;
+	bottom:20px;
+	left:50%;
+	width:20px;
+	height:20px;
+	box-sizing: border-box;
+	margin-left:-10px;
+	background:yellow;
+	border:1px solid #7d7d7d;
+	border-radius:10px;
+	
+}
+#platform{
+	position:absolute;
+	bottom:0px;
+	left:50%;
+	width:100px;
+	height:20px;
+	box-sizing: border-box;
+	margin-left:-50px;
+	background:yellow;
+	border:1px solid #7d7d7d;
+    border-radius: 5px ;
+    text-align:center;
+    color: #414141;
+    font-size: 15px;
+    font-weight: bold;
+}
